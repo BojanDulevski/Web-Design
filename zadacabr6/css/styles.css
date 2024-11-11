@@ -1,0 +1,192 @@
+.navbar-brand img{
+    width: 200px;
+}
+#mainNav button{
+    display: none;
+}
+#navbarResponsive ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+#navbarResponsive li{
+    margin-top: -50px;
+    margin-right: 50px;
+
+}
+#navbarResponsive a{
+    text-decoration: none;
+    color:white;
+}
+#mainNav{
+    background-color: transparent;
+}
+.masthead{
+    background-image: url("../assets/img/header-bg.jpg");
+    width: 1300px;
+    height: 1250px;
+    margin-top: -315px;
+    margin-left: -10px;
+}
+.masthead-subheading{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    padding-top:550px;
+}
+.masthead-heading{
+    color:white;
+    font-size: 50px;
+    margin-left: 450px;
+}
+.btn-primary{
+    color:white;
+    font-size: 20px;
+    margin-left: 550px;
+    border: 2px solid transparent ;
+    background-color: orange;
+
+}
+.btn-xl{
+    text-decoration: none;
+    width: 200px;
+}
+.text-center h2,h3{
+    text-align: center;
+    font-weight: 100;
+}
+#services p{
+    width: 300px;
+}
+#services .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img-fluid{
+    width: 250px;
+}
+#portfolio .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+}
+.portfolio-caption-heading{
+    margin-left: 100px;
+    color:black;
+    font-size: 30px;
+}
+.portfolio-caption-subheading{
+    margin-left: 100px;
+}
+#team{
+    padding-top: 50px;
+}
+#team h2{
+    text-transform: uppercase;
+        font-size: 45px;
+}
+.rounded-circle{
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#team .row{
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.d-block {
+    width:100px;
+    margin-left: 20px;
+}
+.py-5{
+    padding-top: 100px;
+}
+.py-5 .container .row{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#contact{
+    color:white;
+    padding-top: 90px;
+}
+#contact{
+    background-image: url("../assets/img/map-image.png");
+    background-color: black;
+    width: 1369px;
+    height: 720px;
+}
+#contact h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+footer{
+    bottom: 0;
+}
+footer{
+    margin-top: 10px;
+}
+footer {
+    background-color: black;
+}
+.footer .container .row{
+    margin-left: 250px;
+    height: 52px;
+    display: flex;
+}
+.text-lg-end{
+    padding-top: 15px;
+}
+.link-light{
+
+    margin-left: 150px;
+}
+.text-white{
+    margin-top: 15px;
+    color:white;
+}
+.text-lg-end a{
+    color:white;
+    text-decoration: none;
+}
+
+.invalid-feedback{
+    display: none;
+}
+#name{
+    width: 500px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+#email{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+#phone{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+#contactForm .row{
+    display: flex;
+    gap:2rem;
+}
+#message{
+    width: 412px;
+    height: 120px;
+}
+#submitButton{
+    margin-top: 40px;
+    height: 70px;
+    border-radius: 7px;
+}
